@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+.parent{
+    margin:10px;
+    padding:10px;
+    display:flex;
+    width:55vw;
+    height: 55vh;;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px); 
+
+}
+body{
+    height: 100vh;;
+    background-image: url("https://c8.alamy.com/comp/GDWPKW/handwritten-text-the-importance-of-time-management-as-concept-image-GDWPKW.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.child{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+}
